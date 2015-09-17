@@ -1,6 +1,6 @@
 {
   "name": "containership.analytics",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Analytics package for ContainerShip",
   "main": "application.js",
   "scripts": {
