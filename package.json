@@ -4,8 +4,7 @@
   "description": "Analytics package for ContainerShip",
   "main": "application.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "preinstall": "./application.js segment"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -16,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/containership/containership.analytics/issues"
   },
-  "homepage": "https://github.com/containership/containership.analytics"
+  "homepage": "https://github.com/containership/containership.analytics",
+  "bin": {
+    "containership.analytics": "./application.js"
+  }
 }
