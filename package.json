@@ -1,0 +1,20 @@
+{
+  "name": "containership.analytics",
+  "version": "0.0.0",
+  "description": "Analytics package for ContainerShip",
+  "main": "application.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "./application.js segment"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/containership/containership.analytics.git"
+  },
+  "author": "ContainerShip Developers <developers@containership.io>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/containership/containership.analytics/issues"
+  },
+  "homepage": "https://github.com/containership/containership.analytics"
+}
