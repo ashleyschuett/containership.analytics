@@ -15,7 +15,7 @@ ContainerShip Developers - developers@containership.io
 * Segment
 
 ###Usage
-./application.js segment
+`./application.js segment`
 
 ### What does it do?
 Sends analytics regarding package installs (`Package Install` event) as well as package updates (`Package Update` event) to specified backend.
