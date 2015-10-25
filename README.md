@@ -2,6 +2,9 @@
 
 ##About
 
+### Build Status
+[![Build Status](https://travis-ci.org/containership/containership.analytics.svg)](https://travis-ci.org/containership/containership.analytics)
+
 ###Description
 Analytics package for ContainerShip
 
