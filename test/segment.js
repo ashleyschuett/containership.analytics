@@ -35,7 +35,7 @@ module.exports = {
                 });
             });
 
-            it("should create package install event", function(fn){
+            it("should create package update event", function(fn){
                 analytics.track(provider, fn);
             });
 
