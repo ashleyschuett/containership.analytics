@@ -4,7 +4,7 @@
   "description": "Analytics package for ContainerShip",
   "main": "application.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,9 @@
   "homepage": "https://github.com/containership/containership.analytics",
   "bin": {
     "containership.analytics": "./application.js"
+  },
+  "devDependencies": {
+    "lodash": "^3.10.1",
+    "mocha": "^2.3.3"
   }
 }
